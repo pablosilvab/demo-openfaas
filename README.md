@@ -22,6 +22,12 @@ faas-cli push -f ./demo-openfaas.yml
 faas-cli deploy -f ./demo-openfaas.yml
 ```
 
+4. Crear y deploy
+
+```
+faas-cli up -f demo-openfaas.yml 
+```
+
 * Test
 
 ```
