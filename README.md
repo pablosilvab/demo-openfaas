@@ -33,3 +33,12 @@ faas-cli up -f demo-openfaas.yml
 ```
 curl http://127.0.0.1:31112/function/demo-openfaas
 ```
+
+* JSON Request Test
+
+```
+curl http://127.0.0.1:31112/function/demo-openfaas --data-binary '{
+ "url": "https://blog.alexellis.io/rss/",
+ "term": "docker"
+}'
+```
