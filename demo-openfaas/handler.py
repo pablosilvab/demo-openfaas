@@ -8,6 +8,6 @@ def handle(req):
     if json_req["term"] in r.text:
         result = {"found": True}
 
-    print json.dumps(result)
+    print(json.dumps(result))
 
     
